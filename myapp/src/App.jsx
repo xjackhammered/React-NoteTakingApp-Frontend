@@ -15,10 +15,9 @@ function App() {
         <Routes>
           <Route path="/" element={<AllNotes notes={notes} />}/>
           <Route path="/note/:id" element={<NoteDetails notes={notes} />}/>
+          <Route path="/newnote" element={<NewNote setNotes={setNotes}/>}/>
         </Routes>
       </div>  
-
-
     </>
   )
 }

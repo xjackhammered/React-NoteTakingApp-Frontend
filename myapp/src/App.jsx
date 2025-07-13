@@ -4,6 +4,7 @@ import {Routes, Route} from 'react-router-dom'
 import AllNotes from './AllNotes'
 import mockNotes from './data.js'
 import NoteDetails from './NoteDetails.jsx'
+import NewNote from './NewNote.jsx'
 
  
 function App() {
